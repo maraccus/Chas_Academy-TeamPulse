@@ -2,12 +2,13 @@ import { useState } from 'react'
 import './App.css'
 
 import AppContainer from "./components/AppContainer"
+import CheckInForm from "./components/CheckInForm"
 
 function App() {
 
   return (
     <AppContainer>
-      <h1>Fan då</h1>
+      <CheckInForm/>
     </AppContainer>
   )
 }

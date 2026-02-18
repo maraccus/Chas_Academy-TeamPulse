@@ -1,6 +1,10 @@
 .container {
-    background-color: #32343f;
+    background-color: #2f3850;
     color: #ffffff;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
