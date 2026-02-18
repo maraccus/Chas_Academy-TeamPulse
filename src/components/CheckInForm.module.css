@@ -1,5 +1,5 @@
 .card {
-    width: 250px;
+    width: 275px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -7,6 +7,13 @@
     padding: 2rem;
     color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+    padding: 0.5rem;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    font-size: 1rem;
 }
 
 h2 {

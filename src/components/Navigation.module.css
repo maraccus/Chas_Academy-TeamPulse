@@ -1,0 +1,15 @@
+.btn {
+    padding: .5rem 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #425468;
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    gap: .5rem;
+    background-color: #2c3448;
+    padding: 1rem;
+    width: 100%;
+    justify-content: center;
+}

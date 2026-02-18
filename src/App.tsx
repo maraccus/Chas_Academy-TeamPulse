@@ -1,14 +1,21 @@
 import { useState } from 'react'
+import { Navigation } from './components/Navigation';
 import './App.css'
 
 import AppContainer from "./components/AppContainer"
 import CheckInForm from "./components/CheckInForm"
 
-function App() {
+type View = 'checkin' | 'dashboard' | 'history';
 
+function App() {
+const [activeView, setActiveView] = useState<View>('checkin');
   return (
+
     <AppContainer>
-      <CheckInForm/>
+      <Navigation activeView={activeView} onChange={setActiveView} />
+       <main>
+        {activeView === 'checkin' && <CheckInForm />}
+      </main>
     </AppContainer>
   )
 }
